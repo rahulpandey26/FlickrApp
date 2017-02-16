@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="base_url"><![CDATA[https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=566dc1849e2b1a11b1c2b48c159c81f1&user_id=29096781@N02&format=json&per_page=10&nojsoncallback=1"]]></string>
+
+    <string name="image_url">https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg</string>
+
+
+</resources>

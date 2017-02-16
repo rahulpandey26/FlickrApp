@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_screen_text"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/splash_text_margin_top"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flickr"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/splash_image_margin_top"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/splash_progress_bar_margin_top"/>
+
+</LinearLayout>

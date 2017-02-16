@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_image_height"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/detail_image_margin_top"/>
+
+    <ProgressBar
+        android:id="@+id/image_detail_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:layout_alignTop="@+id/image_detail"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/option_layout"
+        android:layout_below="@id/image_detail"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton android:id="@+id/favorite_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/like"/>
+
+        <ImageButton
+            android:id="@+id/download_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/download"/>
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/share"/>
+
+    </LinearLayout>
+</RelativeLayout>
